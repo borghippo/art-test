@@ -3,7 +3,11 @@ module.exports = {
   content: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'], // remove unused styles in production
   darkMode: 'media', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        noto: ["'Noto Sans JP'", 'sans-serif'],
+      },
+    },
   },
   variants: {
     extend: {},
